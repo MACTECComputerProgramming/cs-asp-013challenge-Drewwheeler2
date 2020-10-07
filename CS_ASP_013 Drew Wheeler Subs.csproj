@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>CS_ASP_013_Drew_Wheeler_Subs</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Light-Wood-Background-Texture-1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Light-Wood-Background-Texture-1.jpg" />
+  </ItemGroup>
+
+</Project>
